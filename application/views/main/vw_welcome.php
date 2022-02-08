@@ -51,19 +51,19 @@
          </div>
       </div>
       <div class="booking_form">
-         <form>
+         <form action="<?php echo base_url(); ?>check-availability" method="POST" enctype="">
             <ul>
                <li>
                   <label>Check In</label>
-                  <input type="date" name="">
+                  <input type="date" name="from_date">
                </li>
                <li>
                   <label>Check Out</label>
-                  <input type="date" name="">
+                  <input type="date" name="to_date">
                </li>
                <li>
                   <label>&nbsp;</label>
-                  <input type="submit" value="Check Availability" class="wpcf7-form-control has-spinner wpcf7-submit">
+                  <input type="submit" name="submit" value="Check Availability" class="wpcf7-form-control has-spinner wpcf7-submit">
                </li>
             </ul>
          </form>

@@ -10,7 +10,18 @@ class Main extends CI_Controller
 
 	public function index()
 	{
-		//
+		//check form submit
+
+		if($this->input->post('submit')){
+			// print_obj($this->input->post());die;
+			$from_date = $this->input->post('from_date');
+			$to_date = $this->input->post('to_date');
+		}else{
+			$from_date = DT;
+			$to_date = DT;
+		}
+
+		
 		$this->data['page_title'] = 'Best Resorts near Kolkata, Kolaghat | Rupasi Rupnarayn Kuthi';
 
 		//availability
@@ -58,8 +69,8 @@ class Main extends CI_Controller
 				//check availability
 				$chkdata = array(
 					'tbl_availability.room_id'  => $value->room_id,
-					'tbl_availability.from_date <='  => DT,
-					'tbl_availability.to_date >='  => DT,
+					'tbl_availability.from_date <='  => $from_date,
+					'tbl_availability.to_date >='  => $to_date,
 				);
 				$getAvldata = $this->am->getRoomAvailability2($chkdata);
 				if (!empty($getAvldata)) {
@@ -67,7 +78,8 @@ class Main extends CI_Controller
 					//check booking
 					$chkdata = array(
 						'tbl_room_bookings.room_id'  => $value->room_id,
-						'tbl_room_bookings.booking_date'  => DT,
+						'tbl_room_bookings.booking_date <='  => $from_date,
+						'tbl_room_bookings.booking_date >='  => $to_date,
 						// 'tbl_room_bookings.booking_end_date >='  => DT,
 					);
 					$getBooking = $this->am->getBookings($chkdata);

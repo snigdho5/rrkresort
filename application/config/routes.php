@@ -46,5 +46,6 @@ $route['admin/add-availability'] = 'Rooms/onAddRoomAvailability';
 $route['admin/delroomavl'] = 'Rooms/onDeleteRoomAvailability';
 
 $route['admin/booking-details/(:any)'] = 'Rooms/onGetBookingDetails/$1';
-//front end>>
 
+//front end>>
+$route['check-availability'] = 'Main/index';
