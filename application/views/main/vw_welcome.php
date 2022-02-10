@@ -26,7 +26,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-4">
-               <a href="https://rrkresort.com/"><img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/logo.png" width="180">
+               <a href="https://rrkresort.com/"><img src="<?php echo base_url(); ?>common/images/logo.png" width="180">
                </a>
             </div>
             <div class="col-md-8">
@@ -41,13 +41,13 @@
    <section class="booking_banner">
       <div class="single-slider owl-carousel">
          <div class="item">
-            <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-1.jpg" alt="images">
+            <img src="<?php echo base_url(); ?>common/images/banner-1.jpg" alt="images">
          </div>
          <div class="item">
-            <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-2.jpg" alt="images">
+            <img src="<?php echo base_url(); ?>common/images/banner-2.jpg" alt="images">
          </div>
          <div class="item">
-            <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-3.jpg" alt="images">
+            <img src="<?php echo base_url(); ?>common/images/banner-3.jpg" alt="images">
          </div>
       </div>
       <div class="booking_form">
@@ -121,11 +121,11 @@
                ?>
                         <div class="room-box">
                            <div class="rm-images">
-                              <img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="main-image img-fluid" alt="images">
+                              <img src="<?php echo base_url(); ?>common/images/room1.jpg" class="main-image img-fluid" alt="images">
                               <ul class="thumb-img">
-                                 <li><a href="#"><img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="img-fluid" alt="images"></a></li>
-                                 <li><a href="#"><img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="img-fluid" alt="images"></a></li>
-                                 <li><a href="#"><img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="img-fluid" alt="images"></a></li>
+                                 <li><a href="#"><img src="<?php echo base_url(); ?>common/images/room1.jpg" class="img-fluid" alt="images"></a></li>
+                                 <li><a href="#"><img src="<?php echo base_url(); ?>common/images/room1.jpg" class="img-fluid" alt="images"></a></li>
+                                 <li><a href="#"><img src="<?php echo base_url(); ?>common/images/room1.jpg" class="img-fluid" alt="images"></a></li>
                               </ul>
                            </div>
                            <div class="rm-info">
@@ -164,13 +164,13 @@
                                              <div class="col-md-5">
                                                 <div class="single-slider owl-carousel">
                                                    <div class="item">
-                                                      <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-1.jpg" alt="images">
+                                                      <img src="<?php echo base_url(); ?>common/images/room1.jpg" alt="images">
                                                    </div>
                                                    <div class="item">
-                                                      <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-2.jpg" alt="images">
+                                                      <img src="<?php echo base_url(); ?>common/images/room1.jpg" alt="images">
                                                    </div>
                                                    <div class="item">
-                                                      <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-3.jpg" alt="images">
+                                                      <img src="<?php echo base_url(); ?>common/images/room1.jpg" alt="images">
                                                    </div>
                                                 </div>
                                              </div>
@@ -265,11 +265,11 @@
                      ?>
                         <div class="room-box">
                            <div class="rm-images">
-                              <img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="main-image img-fluid" alt="images">
+                              <img src="<?php echo base_url(); ?>common/images/room2.jpg" class="main-image img-fluid" alt="images">
                               <ul class="thumb-img">
-                                 <li><a href="#"><img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="img-fluid" alt="images"></a></li>
-                                 <li><a href="#"><img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="img-fluid" alt="images"></a></li>
-                                 <li><a href="#"><img src="https://d3ki85qs1zca4t.cloudfront.net/bookingEngine/uploads/1612165760387392.jpg" class="img-fluid" alt="images"></a></li>
+                                 <li><a href="#"><img src="<?php echo base_url(); ?>common/images/room2.jpg" class="img-fluid" alt="images"></a></li>
+                                 <li><a href="#"><img src="<?php echo base_url(); ?>common/images/room2.jpg" class="img-fluid" alt="images"></a></li>
+                                 <li><a href="#"><img src="<?php echo base_url(); ?>common/images/room2.jpg" class="img-fluid" alt="images"></a></li>
                               </ul>
                            </div>
                            <div class="rm-info">
@@ -311,13 +311,13 @@
                                              <div class="col-md-5">
                                                 <div class="single-slider owl-carousel">
                                                    <div class="item">
-                                                      <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-1.jpg" alt="images">
+                                                      <img src="<?php echo base_url(); ?>common/images/room2.jpg" alt="images">
                                                    </div>
                                                    <div class="item">
-                                                      <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-2.jpg" alt="images">
+                                                      <img src="<?php echo base_url(); ?>common/images/room2.jpg" alt="images">
                                                    </div>
                                                    <div class="item">
-                                                      <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-3.jpg" alt="images">
+                                                      <img src="<?php echo base_url(); ?>common/images/room2.jpg" alt="images">
                                                    </div>
                                                 </div>
                                              </div>
@@ -349,7 +349,7 @@
 
             <div class="col-md-3">
                <div class="sideadd-part">
-                  <img src="https://rrkresort.bookingjini.com/static/media/covid3.2423747a.jpg" alt="images" class="img-fluid">
+                  <img src="<?php echo base_url(); ?>common/images/covid-add.jpg" alt="images" class="img-fluid">
                </div>
                <div class="booking-summary-box">
                   <div class="day-list">
@@ -454,7 +454,7 @@
          <div class="tab-content">
             <div id="about-hotel" class="tab-pane active">
                <div class="tab-banner">
-                  <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/banner-3.jpg" alt="images" class="img-fluid">
+                  <img src="<?php echo base_url(); ?>common/images/banner-3.jpg" alt="images" class="img-fluid">
                </div>
                <h3>RUPASI RUPNARAYAN KUTHI</h3>
                <p>Vill. Orphulli, P.o. Orphulli, P.S.-Bagnan,Howrah</p>
@@ -537,7 +537,7 @@
    <section class="footer-part">
       <div class="container">
          <p class="text-center">
-            <img src="https://v1.nitrocdn.com/LwrCfqwHSCzbNVKgWmTOCaMbFijMAVnt/assets/static/optimized/rev-3a30274/wp-content/uploads/2021/12/footer-logo.png">
+            <img src="<?php echo base_url(); ?>common/images/footer-logo.png">
          </p>
          <p class="copyright-text">Copyright 2021 Rupasi Rupnarayan Kuthi | All rights reserved Designed By <a href="">LNSEL</a></p>
       </div>
